@@ -1,0 +1,5 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+  jms: #开启主题模式，默认队列模式是不开启的false
+    pub-sub-domain: true
